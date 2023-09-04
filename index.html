@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typescript/5.1.6/typescript.min.js" integrity="sha512-CD0QCOMj1y0imBxU9ku6oZNHAXspKFoD64o0kObU4cRPDcM6raMUH4yk5nIGjqXBXKe7ukYGrg86zT3ftj8u5w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--JS-->
+    <script src="jquery-3.7.0.js">
+</script>
+
+<script> 
+  $(document).ready(function(){
+    $("#flip, #flip2").click(function(){
+    $("#flip, #flip2").css({backgroundColor: '#8ea8c0'});
+    $("#panel, #panel2").slideToggle("slow");
+    $("#geezerpic").slideToggle("slow");
+    $(".lorem500").slideToggle("slow");   
+    });
+  });
+</script>
+
+<style> 
+    #panel, #panel2, #flip, #flip2{
+      padding: 5px;
+      text-align: center;
+      background-color: #b9d1db;
+      border: solid 4px #185c9b;
+      border-radius: 4px;
+      
+  }
+    #panel {
+      padding: 50px;
+      display: none;
+  }
+    #panel2 {
+      display: none;
+  }
+
+</style>
+
+<title>JavaScript & Jquery</title>
+
+</head>
+
+<body>    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js" integrity="sha512-TPh2Oxlg1zp+kz3nFA0C5vVC6leG/6mm1z9+mA81MI5eaUVqasPLO8Cuk4gMF4gUfP5etR73rgU/8PNMsSesoQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.min.js" integrity="sha512-fHY2UiQlipUq0dEabSM4s+phmn+bcxSYzXP4vAXItBvBHU7zAM/mkhCZjtBEIJexhOMzZbgFlPLuErlJF2b+0g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">       
+
+<script>
+      $(function() {
+      $("#accordion").accordion();
+      });
+</script>
+
+<header class="container-fluid">
+    <div class="frame">
+        <img src="Afbeeldingen/IMG_20230315_185547.jpg" width="100" alt="oldgeezer" id="oldgeezer">   
+      <!-- Large button groups (default and split) -->
+      <div class="btn-group">
+      <button class="btn btn-danger btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="display: inline">
+      NHA Opleidingen
+      </button>
+     <a href="https://www.nha.nl/beroepsopleidingen" class="dropdown-menu" id="bpo"><i class="fa-solid fa-house"></i> Beroepsopleidingen NHA</a>
+</div>
+       <!-- Large button groups (default and split) -->
+      <div class="btn-group">
+      <button class="btn btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="nhastudies">
+      NHA STUDIES
+      </button>
+      <a href="https://www.nha.nl/hobbycursussen" class="dropdown-menu" id="hobbies"><i class="fa-solid fa-house"></i> Hobbies NHA</a>
+</div>
+      <!-- Large button groups (default and split) -->
+      <div class="btn-group">
+      <button class="btn btn-warning btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="anders">
+      NHA ANDERS
+      </button>
+      <a href="https://www.nha.nl/vmbo-havo-vwo" class="dropdown-menu" id="andere"><i class="fa-solid fa-house"></i> Andere Opleidingen NHA</a>
+    </div>
+</div>
+</header>
+
+  <div class="flex-container">
+    <div class="flex-child">
+      <div id="flip"><i class="fa-solid fa-caret-down"></i><h4>Lorem</h4></div>
+<div id="panel">
+
+  <p lang="zxx">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Molestiae doloremque repellat alias. 
+    Temporibus itaque minima est placeat provident, laboriosam rerum quidem nemo corporis iure! 
+    Reiciendis ducimus dolorum blanditiis nostrum autem nemo libero animi ipsam mollitia sit! 
+    Dolorum quis veniam amet rerum beatae! 
+    Officia ipsam saepe cum praesentium ratione! 
+    Dignissimos cum itaque fugiat reiciendis sit pariatur nam! 
+    Explicabo magni illum corrupti repellat vitae labore voluptas, minima alias nostrum quam, esse exercitationem quaerat ipsa eius vel adipisci placeat consequatur suscipit mollitia perspiciatis ea eum. 
+    Totam aliquid placeat, quia quis aperiam nesciunt voluptas natus eius neque ut reiciendis itaque, at distinctio rem eligendi, soluta voluptates quisquam maiores delectus quaerat eaque dicta? 
+    Placeat enim tempora magni minima odit perferendis sed maxime aliquam esse dolorum. 
+    Illum ullam eos similique aut iusto ratione, vitae dolore praesentium ea, nihil omnis, sunt assumenda. 
+    Accusamus harum consequatur deleniti. 
+    Doloremque, ratione delectus? 
+    Saepe vel nisi similique, doloremque porro commodi accusantium deleniti deserunt, et odio perferendis quae nihil ut inventore mollitia molestiae harum tempora officia quo ipsa ipsum animi praesentium incidunt?
+    Exercitationem necessitatibus maiores alias possimus!</p>
+</div>
+
+  <p class="lorem500" lang="zxx">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+    Velit quam labore dolorem deserunt aliquid voluptatibus nostrum amet? 
+    Fugit iste totam et, praesentium similique eaque distinctio vitae necessitatibus neque quia placeat recusandae officia qui voluptatem molestiae quae magni officiis aliquid maiores sequi dolor, deserunt asperiores aperiam tempore. 
+    Maxime dignissimos animi magni, temporibus ex odio quod dicta recusandae, earum rem cumque maiores sapiente? 
+    Ex tenetur libero aliquam accusantium consectetur blanditiis, ratione odio sequi quasi adipisci repellat voluptates voluptatibus officia provident facilis, ab quos. 
+    Delectus autem, velit, adipisci, aspernatur excepturi voluptatibus dolor porro libero necessitatibus ex ullam unde earum? 
+    Doloremque eaque consectetur autem corporis possimus ab totam laboriosam cum consequatur, unde quia nobis eius ex rerum nemo. 
+    Delectus, dignissimos sint accusamus perspiciatis sunt quae aliquid porro suscipit cumque enim maxime provident quos. 
+    Aut doloremque est tempora cum perspiciatis aliquam odio veniam rerum debitis exercitationem fugit consequatur quaerat, voluptatem eum quasi officiis numquam necessitatibus deleniti. 
+    Amet voluptates ex, ab dolore aliquam odio nesciunt ea obcaecati dicta error fugiat pariatur ullam fuga magni suscipit qui autem numquam unde rem hic voluptate sapiente dolores, cum et? 
+    Obcaecati, quisquam! 
+    Nulla ad commodi voluptas, non consectetur, ab nesciunt quibusdam, iusto delectus minus accusamus cum repellendus repudiandae deleniti facere quaerat consequuntur veritatis. 
+    Fugit voluptatibus aspernatur nemo sed fuga voluptas nulla magnam quisquam sunt officiis id asperiores quas, dicta porro delectus saepe quae ipsa pariatur repellat, tempora tenetur at architecto minus earum. 
+    Eaque perspiciatis ducimus odio a in sint molestias impedit! 
+    Quam illum velit magni facere officiis provident rem unde dignissimos esse sunt, vel quos laboriosam quia! 
+    Illo animi fugit perferendis sequi nostrum modi facilis distinctio nobis repellat veniam perspiciatis hic numquam doloremque minima, dolorum voluptates similique eveniet, et atque iusto magnam aperiam eius voluptatibus. 
+    A ab exercitationem id quidem, suscipit amet autem porro minima consectetur molestiae modi harum repellendus magnam quos fugit labore quae at ipsam earum asperiores? 
+    Voluptatibus nihil nisi fugit illum? 
+    Molestiae iste ducimus earum accusantium, enim eos maxime vel nisi quas distinctio nulla, corporis hic commodi ab facere maiores unde, laudantium sunt aut ad minima aperiam. 
+    Corporis commodi quidem deserunt cumque maiores architecto tenetur, inventore aspernatur ipsum quisquam necessitatibus, velit ut similique quam, dolor minus magni vero at culpa. 
+    Rem architecto saepe, consequuntur blanditiis quos odio nemo sit a delectus cupiditate ad, nobis quisquam excepturi magnam temporibus, dolorum exercitationem enim voluptate recusandae consequatur. 
+    Pariatur iste, culpa voluptatem unde exercitationem soluta labore rem. 
+    Distinctio cumque sint ullam consequatur tempore, necessitatibus quae natus enim voluptates sit voluptate accusantium nemo saepe, atque blanditiis vitae cum assumenda eaque itaque ea? 
+    Sed impedit expedita nisi possimus sit deserunt! Atque placeat vel voluptate alias exercitationem qui voluptas tenetur laborum asperiores! Nobis excepturi culpa eveniet nam numquam. 
+    Perferendis, facilis unde ab dicta maxime asperiores ipsam eius aut, aperiam sapiente explicabo natus saepe quae. 
+    Quo, distinctio itaque? Veniam ullam quia libero beatae labore inventore dolorem, aliquam alias officia? Ex rerum ad saepe ea facere itaque maxime, cumque quo ipsum quod deserunt laudantium culpa quasi accusantium, amet earum cum?
+    Sunt asperiores id sint voluptate vel.</p>
+
+</div> 
+  <div class="flex-child text-center">
+    <div id="flip2"><i class="fa-solid fa-caret-down"></i><h4>Voorbeeld van pagina design in Figma</h4></div>
+      <img src="Afbeeldingen/IMG_20230315_185547.jpg" alt="figma" id="geezerpic">
+    <div id="panel2">
+      <img src="Afbeeldingen/Prototype Pagina NHA Webdesign in Jquery.png" alt="figma" id="Figma">
+    </div>  
+  </div>
+</div>
+
+<footer>
+  <div class="frame-footer">
+    <div class="dropdown-center">
+      <a class="btn btn-warning dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="oud_huiswerk">Oud Huiswerk NHA Webdesign</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="https://oldgeezer13.github.io/NHA-Huiswerk-Les-9-Media/Attractiepark%20De%20Efteling.html"><i class="fa-brands fa-github"></i> Huiswerk Les 9</a></li>
+          <li><a class="dropdown-item" href="https://oldgeezer13.github.io/Huiswerk-Les-11-12-NHA-Webdesign/"><i class="fa-brands fa-github"></i> Huiswerk Les 12</a></li>
+          <li><a class="dropdown-item" href="https://oldgeezer13.github.io/Huiswerk-Les-15/"><i class="fa-brands fa-github"></i> Huiswerk Les 15</a></li>
+          <li><a class="dropdown-item" href="https://oldgeezer13.github.io/Huiswerk-Les-18-CSS-Responsive-Design/"><i class="fa-brands fa-github"></i> Huiswerk Les 18</a></li>
+          <li><a class="dropdown-item" href="https://oldgeezer13.github.io/Bootstrap-Les-22/"><i class="fa-brands fa-github"></i> Huiswerk Les 22</a></li>  
+        </ul>
+      </div>
+    </div>    
+</footer>
+
+</body>
+</html>
