@@ -9,6 +9,8 @@ Ook na de vakantie moest ik me toch wel weer een paar keer goed inlezen hoe het 
 <br>
 Heb accordion effecten gebruikt. Met slideToggles.
 <br>
+Hier en daar schaduw en hover effecten.
+<br>
 Daarbij nog links van mijn oud huiswerk erin verwerkt.
 <br>
 Hoop dat het een beetje gelukt is.
